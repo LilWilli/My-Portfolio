@@ -304,14 +304,14 @@ export default function Home() {
           </header>
           <section className="about-text">
             <p>
-              Hello, I’m DEMILADE ADEPITAN, a web developer and designer based in Northampton, UK. I have rich experience in web site design and building and customization. I am really passionate and dedicated to my work.
+              Hello, I &apos;m DEMILADE ADEPITAN, a web developer and designer based in Northampton, UK. I have rich experience in web site design and building and customization. I am really passionate and dedicated to my work.
             </p>
             <p>
               I love to create simple yet beautiful websites with great user experience.
             </p>
           </section>
           <section className="service">
-            <h3 className="h3 service-title">What i'm doing</h3>
+            <h3 className="h3 service-title">What i &apos;m doing</h3>
             <ul className="service-list">
               <li className="service-item">
                 <div className="service-icon-box">
