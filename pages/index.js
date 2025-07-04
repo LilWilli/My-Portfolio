@@ -194,7 +194,7 @@ export default function Home() {
 
           <div className="info-content">
             <h1 className="name" title="Adepitan William">Adepitan William</h1>
-            <p className="title">Web developer</p>
+            <p className="title">Game developer</p>
           </div>
 
           <button className="info_more-btn" data-sidebar-btn>
@@ -223,7 +223,7 @@ export default function Home() {
               </div>
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
-                <a href="tel:+2349084988744" className="contact-link">+234 908 498 8744</a>
+                <a href="tel:+2349084988744" className="contact-link">+44 7349 854024</a>
               </div>
             </li>
 
@@ -243,7 +243,7 @@ export default function Home() {
               </div>
               <div className="contact-info">
                 <p className="contact-title">Location</p>
-                <address>Northampton, United Kingdom</address>
+                <address>Wellingborough, Northamptonshire</address>
               </div>
 
             </li>
@@ -281,6 +281,9 @@ export default function Home() {
               <button className="navbar-link" data-nav-link="about">About</button>
             </li>
             <li className="navbar-item">
+              <button className="navbar-link" data-nav-link="hobbies">Hobbies</button>
+            </li>
+            <li className="navbar-item">
               <button className="navbar-link" data-nav-link="skills">Skills</button>
             </li>
             <li className="navbar-item">
@@ -295,6 +298,7 @@ export default function Home() {
             <li className="navbar-item">
               <button className="navbar-link" data-nav-link="contact">Contact</button>
             </li>
+            <li className="navbar-item"><button className="navbar-link" data-nav-link="Purpose">My purpose</button></li>
           </ul>
         </nav>
         <article className="about active" data-page="about">
@@ -304,14 +308,14 @@ export default function Home() {
           </header>
           <section className="about-text">
             <p>
-              Hello, I &apos;m DEMILADE ADEPITAN, a web developer and designer based in Northampton, UK. I have rich experience in web site design and building and customization. I am really passionate and dedicated to my work.
+              Hello and a good day to all, I &apos;m William, a former  web developer and designer based in Wellingborough, Northamptonshire. I have had rich experience in web site design and building and customization. I have evolved into developing passion and a career for game development.
             </p>
             <p>
-              I love to create simple yet beautiful websites with great user experience.
+              I would like to create very nice and unique games.
             </p>
           </section>
           <section className="service">
-            <h3 className="h3 service-title">What i &apos;m doing</h3>
+            <h3 className="h3 service-title">What I used to do: </h3>
             <ul className="service-list">
               <li className="service-item">
                 <div className="service-icon-box">
@@ -353,7 +357,7 @@ export default function Home() {
                 <div className="service-content-box">
                   <h4 className="h4 service-item-title">Friendly UI For Websites</h4>
                   <p className="service-item-text">
-                    I make friendly UI for websites along with interaction
+                    I made friendly UI for websites along with interaction
                   </p>
                 </div>
               </li>
@@ -366,15 +370,15 @@ export default function Home() {
             <h2 className="h2 article-title">My skills</h2>
           </header>
           <section className="skills-content">
-            <h3 className="h3 skills-title">My knowledge</h3>
+            <h3 className="h3 skills-title">My knowledge and passion</h3>
             <ul className="skills-list">
               <li className="skills-item">
                 <div className="title-wrapper">
                   <h5 className="h5">Frontend Web development</h5>
-                  <data value="80" className="skills-percentage" style={{ color: 'green' }}>80%</data>
+                  <data value="60" className="skills-percentage" style={{ color: 'orange' }}>60%</data>
                 </div>
                 <div className="skill-progress-bg">
-                  <div className="skill-progress-fill" style={{ width: '80%' }} data-width="80"></div>
+                  <div className="skill-progress-fill" style={{ width: '60%' }} data-width="80"></div>
                 </div>
                 &nbsp;
                 <div className="title-wrapper">
@@ -389,19 +393,28 @@ export default function Home() {
                 <div className="title-wrapper">
                   <h5 className="h5">Responsive Web Development</h5>
 
-                  <data value="85" className="skills-percentage" style={{ color: 'green' }}>85%</data>
+                  <data value="50" className="skills-percentage" style={{ color: 'blue' }}>50%</data>
                 </div>
                 <div className="skill-progress-bg">
-                  <div className="skill-progress-fill" style={{ width: '85%' }} data-width="85"></div>
+                  <div className="skill-progress-fill" style={{ width: '50%' }} data-width="85"></div>
                 </div>
                 &nbsp;
                 <div className="title-wrapper">
                   <h5 className="h5">Friendly UI For Websites</h5>
 
-                  <data value="90" className="skills-percentage" style={{ color: 'green' }}>90%</data>
+                  <data value="45" className="skills-percentage" style={{ color: 'pink' }}>45%</data>
                 </div>
                 <div className="skill-progress-bg">
-                  <div className="skill-progress-fill" style={{ width: '90%' }} data-width="90"></div>
+                  <div className="skill-progress-fill" style={{ width: '45%' }} data-width="90"></div>
+                </div>
+                &nbsp;
+                <div className="title-wrapper">
+                  <h5 className="h5">Game Development</h5>
+
+                  <data value="80" className="skills-percentage" style={{ color: 'lightgreen' }}>80%</data>
+                </div>
+                <div className="skill-progress-bg">
+                  <div className="skill-progress-fill" style={{ width: '80%' }} data-width="85"></div>
                 </div>
               </li>
             </ul>
@@ -417,37 +430,46 @@ export default function Home() {
               <h3 className="h3 projects-title">My projects</h3>
               &nbsp;
               <h5 className="projects-desc project-title">
-                I like to showcase my work and thus, you can see my
-                most recent projects here. All of my projects are
-                stored on GitHub.
+                I like to showcase my previous work. You can see my
+                 projects here. All of my projects are
+                stored on my GitHub.
               </h5>
+              &nbsp;
               <div className="w3-container">
                 <div className="w3-row-padding w3-center">
                   {/* Card 1: Real Estate Application */}
                   <div className="w3-col s12 m6 l4">
                     <div className="w3-card w3-hover-shadow w3-animate-opacity" style={{ transition: 'transform 0.3s ease' }}>
-                      <a
-                        href="https://github.com/LilWilli/Real-Estate-Application"
-                        title="Click on the image to see the codebase"
-                        target="_blank"
-                        className="project-card w3-hover-opacity"
-                        style={{ textDecoration: 'none' }}
-                      >
-                        <Image
-                          src="/assets/images/pexels-photo-1131573.jpeg"
-                          alt="Real Estate Application"
-                          loading="lazy"
-                          width={400}
-                          height={250}
-                          className="w3-image"
-                        />
+                      <div className="project-card w3-hover-opacity" style={{ textDecoration: 'none' }}>
+                        <a
+                          href="https://github.com/LilWilli/Real-Estate-Application"
+                          title="Click on the image to see the codebase"
+                          target="_blank"
+                        >
+                          <Image
+                            src="/assets/images/pexels-photo-1131573.jpeg"
+                            alt="Real Estate Application"
+                            loading="lazy"
+                            width={400}
+                            height={250}
+                            className="w3-image"
+                          />
+                        </a>
+
                         <div className="w3-container w3-padding w3-green">
                           <h3 className="w3-text-white">Real Estate Application</h3>
-                          <button className="w3-button w3-white w3-border w3-border-green w3-hover-shadow w3-round-large">
-                            <a target="_blank" href="https://real-estate-application-v-1.onrender.com/" style={{ textDecoration: 'none' }}>View Live/Demo</a>
-                          </button>
+                          <a
+                            target="_blank"
+                            href="https://real-estate-application-v-1.onrender.com/"
+                            style={{ textDecoration: 'none' }}
+                          >
+                            <button className="w3-button w3-white w3-border w3-border-green w3-hover-shadow w3-round-large">
+                              View Live/Demo
+                            </button>
+                          </a>
                         </div>
-                      </a>
+                      </div>
+
                     </div>
                   </div>
 
@@ -551,7 +573,7 @@ export default function Home() {
             <div className="resume-card">
               <h5 className="card-title">My Resume</h5>
               <p className="card-text">Click below to download my resume.</p>
-              <a href="/My%20Resume%20(1).pdf" download className="btn btn-primary">
+              <a href="/New%20Cv.docx" download className="btn btn-primary">
                 Download My Resume
               </a>
             </div>
@@ -567,7 +589,7 @@ export default function Home() {
             <div className="resume-card">
               <h5 className="card-title">My Cover Letter</h5>
               <p className="card-text">Click below to download my cover letter.</p>
-              <a href="/BusinessCoverLetter.pdf" download className="btn btn-primary">
+              <a href="/Coverletter.docx" download className="btn btn-primary">
                 Download My Cover Letter
               </a>
             </div>
