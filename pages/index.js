@@ -2,7 +2,8 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import avatar from "@/public/assets/images/my-avatar.png";
-
+import WilliamLikes from "./WilliamLikes";
+import MyPurpose from "./MyPurpose";
 export default function Home() {
   useEffect(() => {
     // Function to toggle the 'active' class
@@ -298,7 +299,6 @@ export default function Home() {
             <li className="navbar-item">
               <button className="navbar-link" data-nav-link="contact">Contact</button>
             </li>
-            <li className="navbar-item"><button className="navbar-link" data-nav-link="Purpose">My purpose</button></li>
           </ul>
         </nav>
         <article className="about active" data-page="about">
@@ -362,6 +362,7 @@ export default function Home() {
                 </div>
               </li>
             </ul>
+            <MyPurpose />
           </section>
         </article>
         <article className="skills" data-page="skills">
@@ -431,7 +432,7 @@ export default function Home() {
               &nbsp;
               <h5 className="projects-desc project-title">
                 I like to showcase my previous work. You can see my
-                 projects here. All of my projects are
+                projects here. All of my projects are
                 stored on my GitHub.
               </h5>
               &nbsp;
@@ -558,9 +559,17 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
-
             </div>
+          </section>
+        </article>
+        <article className="hobbies" data-page="hobbies">
+          &nbsp;
+          <header>
+            <h2 className="h2 article-title">My Hobbies</h2>
+          </header>
+          <section className="hobbies-content">
+            <h3 className="h3 hobbies-title">My Interest.</h3>
+            <WilliamLikes />
           </section>
         </article>
         <article className="resume" data-page="resume">
@@ -609,7 +618,7 @@ export default function Home() {
                 <div className="w3-card-4 w3-hover-shadow w3-animate-opacity w3-center" style={{ padding: '20px', transition: 'transform 0.3s ease' }}>
                   <i className="fa fa-phone w3-text-teal w3-jumbo"></i>
                   <h4 className="w3-margin-top">Phone</h4>
-                  <p className="w3-large w3-text-grey">09084988744</p>
+                  <p className="w3-large w3-text-grey">+44 7349 854024</p>
                 </div>
               </div>
 
@@ -658,7 +667,6 @@ export default function Home() {
             </section>
           </div>
         </article>
-
       </div>
     </main>
   );
