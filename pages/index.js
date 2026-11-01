@@ -618,7 +618,7 @@ export default function Home() {
                 <div className="w3-card-4 w3-hover-shadow w3-animate-opacity w3-center" style={{ padding: '20px', transition: 'transform 0.3s ease' }}>
                   <i className="fa fa-phone w3-text-teal w3-jumbo"></i>
                   <h4 className="w3-margin-top">Phone</h4>
-                  <p className="w3-large w3-text-grey">+44 7349 854024</p>
+                  <p className="w3-large w3-text-grey">+44 7445 193804</p>
                 </div>
               </div>
 
@@ -629,14 +629,6 @@ export default function Home() {
                   <p className="w3-large w3-text-grey">
                     <a href="mailto:demi.adepitan@gmail.com" style={{ textDecoration: 'none', color: '#000' }}>demi.adepitan@gmail.com</a>
                   </p>
-                </div>
-              </div>
-
-              <div className="w3-col s12 m6 l4">
-                <div className="w3-card-4 w3-hover-shadow w3-animate-opacity w3-center" style={{ padding: '20px', transition: 'transform 0.3s ease' }}>
-                  <i className="fa fa-snapchat-ghost w3-text-teal w3-jumbo"></i>
-                  <h4 className="w3-margin-top">Snapchat</h4>
-                  <p className="w3-large w3-text-grey">$$##Lil Willi (demadebig_d2)</p>
                 </div>
               </div>
             </div>
