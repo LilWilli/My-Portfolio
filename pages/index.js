@@ -582,7 +582,7 @@ export default function Home() {
             <div className="resume-card">
               <h5 className="card-title">My Resume</h5>
               <p className="card-text">Click below to download my resume.</p>
-              <a href="/William_Adepitan_Resume.pdf" download className="btn btn-primary">
+              <a href="/William'sCurrentCv.docx" download className="btn btn-primary">
                 Download My Resume
               </a>
             </div>
