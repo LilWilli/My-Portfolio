@@ -224,7 +224,7 @@ export default function Home() {
               </div>
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
-                <a href="tel:+2349084988744" className="contact-link">+44 7445 193804`</a>
+                <a href="tel:+2349084988744" className="contact-link">+44 7445 193804</a>
               </div>
             </li>
 
