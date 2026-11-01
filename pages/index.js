@@ -598,7 +598,7 @@ export default function Home() {
             <div className="resume-card">
               <h5 className="card-title">My Cover Letter</h5>
               <p className="card-text">Click below to download my cover letter.</p>
-              <a href="/CoverLetter.docx" download className="btn btn-primary">
+              <a href="/William-Adepitan-Cover-Letter-Nov2026.docx" download className="btn btn-primary">
                 Download My Cover Letter
               </a>
             </div>
